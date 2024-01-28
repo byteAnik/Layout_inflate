@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="20dp">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Anik Biswas"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:layout_margin="10dp"
+        />
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:src="@drawable/travelworld"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="সম্ভাবনাময় অ্যাপ ডেভেলপমেন্ট সেক্টরে ক্যারিয়ার গড়তে চাইলে আগে দরকার ভালো একটা স্কিল তৈরি করা দরকার। আর স্কিল তৈরি করতে হলে নিয়মিত প্র্যাকটিস করার কোন বিকল্প নেই। Learn Android With Jubayer গ্রুপে শেয়ার করা প্র্যাকটিস চ্যালেঞ্জগুলো এই ব্লগে তুলে ধরা হলো। প্রতিটি চ্যালেঞ্জ শেষ করে Student ID এবং চ্যালেঞ্জ হ্যাশট্যাগ সহ গ্রুপে পোস্ট করার জন্য অনুরোধ করা হলো।"
+        android:padding="10dp"
+        />
+</LinearLayout>
+
+
+</ScrollView>
+</LinearLayout>
